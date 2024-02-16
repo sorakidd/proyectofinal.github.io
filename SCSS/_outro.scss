@@ -1,0 +1,26 @@
+.contenedor-outro {
+  h2 {
+    font-family: $font-cursive;
+    color: $color-titulo;
+    margin-bottom: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .otro,
+  .subotro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .otro {
+    font-weight: bold;
+  }
+}
+

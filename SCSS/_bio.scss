@@ -1,0 +1,13 @@
+.biografia {
+    background-color: chocolate;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 0.9;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }

@@ -1,0 +1,20 @@
+//colores
+$color-red: #f44336;
+$color-titulo: #ffcc00;
+
+
+//letras
+$font-cursive: 'Brush Script MT', cursive;
+
+//mixin
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+
+//faq
+$font-primary: Arial, sans-serif;
+$color-dark: #333;
+$color-medium: #777;
+$color-light: #fff;

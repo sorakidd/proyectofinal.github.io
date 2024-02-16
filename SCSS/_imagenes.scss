@@ -1,0 +1,40 @@
+.fotos {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .image-container {
+        display: inline-block;
+        width: 47%;
+        margin: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: transform 0.3s ease;
+    }
+    .image-container:hover {
+      transform: scale(1.1);
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #333;
+        margin-top: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: color 0.3s ease;
+      }
+  
+      .descripcion:hover {
+        color: #f00;
+        text-decoration: underline;
+      }
+
+        .image-container img {
+
+            @include sizes(100%, auto)
+        
+            
+        }
+    }

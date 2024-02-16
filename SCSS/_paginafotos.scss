@@ -1,0 +1,41 @@
+body#fotoss {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 3;
+    text-align: center;
+  
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+  
+    .images-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+      .image {
+        width: 45%;
+        margin: 1%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: transform .3s ease-in-out; 
+
+  &:hover {
+    transform: scale(1.5);
+      }
+    }
+  
+    @media only screen and (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+  
+      .image {
+        width: 48%;
+      }
+    }
+  }
+}
